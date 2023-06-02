@@ -28,14 +28,8 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 ## Conclusion
 
-In the project development, we started by building the "Extrato" and "Nova Transferência" components, recognizing the need to translate the texts to the local language of Brazil in order to provide a better user experience.
+During the course, I developed the Bytebank application that simulates the essential functionalities of a banking system, including viewing statements, making transfers, and persistently storing data. I built the necessary components for these functionalities, ensuring they aligned with Brazilian localization standards. Additionally, I implemented a service class to manage data persistence and integrated the application with an external API for long-term storage.
 
-To meet this requirement, we registered the localization of Brazil in the app-module file, configuring Brazilian standards for localization throughout the application.
+I learned how to use Angular's routing service to create routes, transforming components into navigable pages and providing a seamless navigation experience for users.
 
-Later on, we realized the need to persist data even when refreshing the page. To achieve this, we created a service class responsible for storing and managing this data, ensuring its integrity during navigation.
-
-During the implementation of this service class, we identified an opportunity to utilize an external API for storing the persistent data. Consequently, we integrated the API, allowing the components to access and synchronize data with this external source.
-
-With the components properly connected to the external API and data persistently stored, we moved on to the route creation step. Using the Angular routing service, we transformed the components into navigable pages, thus completing the core functionality of the project.
-
-By concluding this process, the application was ready, delivering the intended functionality and successfully completing the development course.
+In summary, the Bytebank project developed during the course allowed me to create a functional banking application with essential features, integration with an external API, and a proper routing structure. I gained practical skills in web application development with Angular and I am prepared to build more complex applications in the future.
